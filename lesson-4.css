@@ -1,0 +1,533 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_general {
+    width: 1170px;
+    margin: auto;
+}
+
+.head_navigation {
+    display: flex;
+    font-size: 14px;
+    line-height: 18px;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.premium {
+    display: flex;
+}
+
+span {
+    display: inline-block;
+}
+
+.car {
+    background-color: #4A90E2;
+    border-radius: 5px;
+    width: 39px;
+    height: 23px;
+    text-align: center;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head_menu {
+    width: 370px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.previews {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.preview_1 {
+    width: 370px;
+    height: 560px;
+    background-image: url("bg-1.png");
+    border-radius: 4px;
+}
+
+.vehicle_button_1 {
+    margin: 34px 0 391px 22px;
+    width: 62px;
+    height: 22px;
+    background-color: #4A90E2;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_14_normal {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 5px 22px;
+}
+
+.text_14_ital {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+}
+
+.text_20_normal {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    margin-left: 22px;
+}
+
+.text_25_normal {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    margin-left: 22px;
+}
+
+.previev_2_1,
+.previev_3_1 {
+    width: 370px;
+    height: 266px;
+    background-image: url("bg-2.png");
+    margin-bottom: 28px;
+    border-radius: 4px;
+    padding-top: 20px;
+}
+
+.previev_2_2,
+.previev_3_2 {
+    width: 370px;
+    height: 266px;
+    background-image: url("bg-3.png");
+    border-radius: 4px;
+    padding-top: 20px;
+}
+
+.previev_3_1 {
+    background-image: url("bg-4.png");
+}
+
+.previev_3_2 {
+    background-image: url("bg-5.png");
+}
+
+.vehicle_button_2 {
+    margin: 0 0 115px 22px;
+    width: 62px;
+    height: 22px;
+    background-color: #4A90E2;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vehicle_button_articles {
+    margin: 0 0 22px 0;
+    width: 62px;
+    height: 22px;
+    background-color: #4A90E2;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_info {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.art_background_1,
+.art_background_2,
+.art_background_3,
+.art_background_4,
+.art_background_5 {
+    background-image: url("art-1.png");
+    width: 770px;
+    height: 440px;
+    border-radius: 5px;
+}
+
+.art_text_1 {
+    width: 730px;
+    height: 250px;
+    margin: -120px 0 0 30px;
+    padding: 30px 80px 0 30px;
+    background-color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    ;
+}
+
+.p_25_normal {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 28px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.p_14_ital,
+.p_14_normal {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.p_14_normal {
+    font-style: normal;
+    line-height: 24px;
+}
+
+.art_background_2 {
+    background-image: url("art-2.png");
+    margin-top: 50px;
+}
+
+.art_background_3 {
+    background-image: url("art-3.png");
+    margin-top: 50px;
+}
+
+.art_background_4 {
+    background-image: url("art-4.png");
+    margin-top: 50px;
+}
+
+.art_background_5 {
+    background-image: url("art-5.png");
+    margin-top: 50px;
+}
+
+.sidebar {
+    width: 275px;
+    margin-right: 20px;
+}
+
+.racer img {
+    border-radius: 5px;
+}
+
+.sidebar_18_bold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: black;
+    margin: 20px 0 10px 0;
+}
+
+.sidebar_14_ital,
+.sidebar_14_normal {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.sidebar_14_normal {
+    font-style: normal;
+    margin: 15px 0 20px 0;
+}
+
+.sidebar_button {
+    width: 270px;
+    height: 50px;
+    background-color: #232323;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.side_post_2 {
+    margin: 23px 0 40px 0;
+}
+
+.side_post_3 {
+    margin-bottom: 40px;
+}
+
+.side_post_4 {
+    margin-bottom: 40px;
+}
+
+.instagram_images {
+    width: 275px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.instagram_images img {
+    margin-bottom: 10px;
+}
+
+.right_images {
+    margin-left: 10px;
+}
+
+.sidebar_button i {
+    margin-right: 10px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.p-tags {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 80px;
+}
+
+.tag_blocks {
+    padding: 7px 15px 5px 15px;
+    width: auto;
+    margin: 0 10px 10px 0;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.p_email {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 50px;
+}
+
+.enter_info {
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    color: #AEB3BB;
+    font-size: 14px;
+    padding: 17px 0 0 15px;
+    margin-bottom: 10px;
+}
+
+.page_numbers {
+    display: flex;
+}
+
+.pages_general,
+.page_active {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #E5E5E5;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 67px 10px 80px 0;
+}
+
+.page_active {
+    background-color: black;
+    color: white;
+}
+
+.most_popular {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.cars_popular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular_20px_bold {
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0 10px 0;
+}
+
+.car_popular-every {
+    width: 270px;
+}
+
+.popular_button_photo_1,
+.popular_button_photo_2,
+.popular_button_photo_3,
+.popular_button_photo_4 {
+    height: 195px;
+    padding: 20px 0 0 15px;
+    background-image: url("popular-1.png");
+}
+
+.bmw_button {
+    width: 62px;
+    height: 22px;
+    background-color: #4A90E2;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popular_button_photo_2 {
+    background-image: url("popular-2.png");
+}
+
+.popular_button_photo_3 {
+    background-image: url("popular-3.png");
+}
+
+.popular_button_photo_4 {
+    background-image: url("popular-4.png");
+}
+
+footer {
+    width: 100%;
+    height: 594px;
+    background-color: black;
+}
+
+footer .p_14_normal {
+    color: #CECECE;
+    margin: 30px 0 65px 0;
+}
+
+footer .container_general {
+    padding-top: 65px;
+}
+
+footer .text_20_normal {
+    margin: 0;
+    color: white;
+}
+
+.footer_row_1 ul {
+    width: 220px;
+}
+
+.footer_row_1 ul li {
+    width: 34px;
+    height: 34px;
+    background-color: #373737;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+.footer_row_1 {
+    display: flex;
+}
+
+.keep_in_touch {
+    width: 270px;
+}
+
+
+
+.recent_posts {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+}
+.recent_posts .p_email {
+    color: white;
+    margin: 0 0 23px 0;
+}
+.recent_post_1 {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.recent_text {
+    margin-left: 20px;
+}
+
+.recent_15 {
+    margin-bottom: 15px;
+}
+
+.recent_posts .text_20_normal {
+    margin-bottom: 23px;
+}
+
+.footer_email .p_email {
+    color: white;
+    margin: 0 0 38px 0;
+}
+footer {
+    margin-top: 80px;
+}
+footer .enter_info {
+    background-color: #373737;
+    border-color: #373737;
+}
+.footer_row_1 {
+    justify-content: space-between;
+}
+.footer_row_2 {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_menu {
+width: 370px;
+}
+.footer_row_2 ul {
+     display: flex;
+    justify-content: space-between;
+}
